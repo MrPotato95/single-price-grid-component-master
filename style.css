@@ -74,6 +74,10 @@ h1 {
   padding-bottom: 15px;
 }
 
+h2 {
+  padding-bottom: 15px;
+}
+
 .yellow-text {
   color: var(--primary-bright-yellow);
   padding-bottom: 10px;
@@ -92,6 +96,7 @@ p.faded {
   color: hsl(182, 67%, 69%);
   display: flex;
   align-items: center;
+  padding: 0px 10px 10px 0px;
 }
 
 p.faded span {
@@ -108,8 +113,8 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 20px 0px;
-  margin-top: 15px;
+  padding: 15px 0px;
+  margin-top: 35px;
   width: 100%;
   box-shadow: 0 5px 5px 5px rgb(0, 0, 0, 0.1);
 }
@@ -121,7 +126,7 @@ ul {
 }
 
 ul li {
-  line-height: 28px;
+  line-height: 23px;
 }
 
 @media (max-width: 375px) {
