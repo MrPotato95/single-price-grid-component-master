@@ -13,6 +13,8 @@
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -120,14 +122,20 @@ ul li {
   line-height: 28px;
 }
 
-@media screen and(max-width: 600px) {
+@media (max-width: 375px) {
   .row {
     flex-direction: column;
+  }
+
+  .attribution {
+    top: 1050px;
   }
 }
 
 .attribution {
-  font-size: 11px;
+  font-family: 'Karla', sans-serif;
+  color: var(--primary-cyan);
+  font-size: 1rem;
   text-align: center;
   bottom: 0;
   position: absolute;
@@ -136,5 +144,5 @@ ul li {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--primary-bright-yellow);
 }
