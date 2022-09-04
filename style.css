@@ -43,7 +43,7 @@ main {
 }
 
 section {
-  padding: 35px;
+  padding: 40px;
 }
 
 section.cyan {
@@ -71,10 +71,12 @@ section.light-cyan {
 h1 {
   color: var(--primary-light-cyan);
   font-size: 34px;
+  padding-bottom: 15px;
 }
 
 .yellow-text {
   color: var(--primary-bright-yellow);
+  padding-bottom: 10px;
 }
 
 p {
@@ -83,7 +85,7 @@ p {
 
 p.light-black {
   color: #999;
-  margin: 7px;
+  margin: 0px;
 }
 
 p.faded {
